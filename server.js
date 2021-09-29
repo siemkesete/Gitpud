@@ -29,12 +29,12 @@ app.get('/drinks', (req, res) => {
     });
 
 // tell app to listen
-const port = process.abort.env.PORT || 3001;
+const port = process.abort.env.PORT || 3000;
 
 
 // tell the app to listen on port 3000 for requests from the client
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3000
 
 
 // use it to store environment variable
